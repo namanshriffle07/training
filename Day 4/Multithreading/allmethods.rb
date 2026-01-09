@@ -1,13 +1,8 @@
-require 'thread' # Required for Mutex and ConditionVariable
+require 'thread' 
 
-# --- Class Methods Demonstration ---
-puts "--- Class Methods Demonstration ---"
-
-# 1. Thread.new/Thread.fork/Thread.start: Create a new thread
-#    We will use Thread.new for consistency.
 thread1 = Thread.new {
   puts "Thread 1: I'm running!"
-  sleep(0.1) # Simulate some work
+  sleep(0.1) 
   Thread.current[:message] = "Hello from Thread 1" # 2. thr[]= : Set a thread-local variable
   puts "Thread 1: My status is #{Thread.current.status}."
 } #
