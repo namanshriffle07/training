@@ -6,4 +6,4 @@ def hello(*args)
 end 
 
 
-hello "Ritesh","Naman","Ajay","Shruti","Paridhi"
+hello "Ritesh",2212,"Ajay",{name:"Naman",age:21},"Paridhi"

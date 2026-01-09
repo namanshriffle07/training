@@ -1,3 +1,5 @@
-square = -> (x) { puts "Square of given number : #{x*x}" }
-
-puts square.call(4)
+square = -> (x) {x*x}
+puts "Please enter a number : "
+val = gets().to_i
+sq = square.call(val)
+puts "Square of the given number : #{sq}"
