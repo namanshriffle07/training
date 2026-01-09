@@ -7,6 +7,7 @@ class MeetAndGreet
     Hello.greet "Naman"
   end
 end
+# Included module after require
 
 aa = MeetAndGreet.new
 aa.execute
