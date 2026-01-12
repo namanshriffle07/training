@@ -1,3 +1,7 @@
 Hello this will be the content of 1.txt
+<<<<<<< HEAD
 Main branch
 
+=======
+This will be the content of new branch
+>>>>>>> fac2fd2a4236d50a389dc31f599f3547e7061308
