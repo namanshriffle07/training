@@ -18,7 +18,5 @@ end
 
 t1 = Thread.new{func1}
 t2 = Thread.new{func2}
-t1.join
-t2.join
-
-puts "List of threads : #{Thread.list}"
+puts t1.value
+puts t2.value
